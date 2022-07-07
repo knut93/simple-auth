@@ -1,5 +1,3 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
@@ -9,8 +7,8 @@ export default function Home() {
     event.preventDefault();
 
     const data = {
-      u_name: event.target.name.value,
-      u_email: event.target.email.value,
+      lastName: event.target.name.value,
+      email: event.target.email.value,
     }
     const JSONdata = JSON.stringify(data);
     const endpoint = '/api/createuser';
