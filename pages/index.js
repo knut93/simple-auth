@@ -31,7 +31,7 @@ export default function Home() {
         <h2>Register your account here</h2>
       </div>
       <div className='space-y-6'>
-        <form className='space-y-3 max-w-[75%] w-auto max-w-min mx-auto' onSubmit={handleSubmit}>
+        <form className='space-y-3 max-w-[75%] w-auto mx-auto' onSubmit={handleSubmit}>
           <div className='text-left flex flex-col'>
             <label>Name </label>
             <input className='border-2 rounded border-gray-600-p-1' name="name" type="text" required></input>
